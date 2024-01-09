@@ -290,3 +290,10 @@ ul{
     padding: 1rem 2rem;
     color: var(--colo-white-1);
 }
+
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 2rem;
+}
