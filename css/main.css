@@ -444,3 +444,18 @@ ul{
         display: block;
     }
 }
+
+.mobile-nav{
+    background-color: var(--colo-white-1);
+    padding: 2rem 5rem;
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    border-right: 1px solid var(--colo-dark-2);
+}
+.mobile-nav-item{
+    margin: 1.2rem 0rem;
+}
+.mobile-nav-link{
+    padding: 1.2rem 5rem 1.2rem 0rem;
+}
