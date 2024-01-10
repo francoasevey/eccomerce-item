@@ -377,3 +377,38 @@ ul{
 .service-title{
     margin: 1.5rem 0rem;
 }
+
+.footer{
+    margin-top: 10rem;
+    background-color: var(--colo-dark-1);
+}
+.footer-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+    padding: 5rem 0rem;
+    color: var(--colo-white-1);
+}
+.footer-logo{
+    font-size: 3rem;
+    color: var(--colo-white-1);
+    font-weight: 700;
+}
+.footer-p{
+    margin-top: 1.2rem;
+}
+.footer-item-title{
+    margin-bottom: 1.2rem;
+}
+.footer-list-item{
+    margin: 0.5rem 0rem;
+}
+.footer-bottom-container{
+    width: 100%;
+    text-align: center;
+}
+.footer-copy{
+    color: var(--colo-dark-2);
+    padding: 1.5rem 0rem;
+}
