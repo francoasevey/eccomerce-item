@@ -412,3 +412,35 @@ ul{
     color: var(--colo-dark-2);
     padding: 1.5rem 0rem;
 }
+
+@media only screen and (max-width: 1070px) {
+    .header-container{
+        flex-direction: column;
+    }
+    .header-filter{
+        display: none;
+    }
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.hamburger > svg{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .top-nav{
+        display: none;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-items{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
