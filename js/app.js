@@ -61,3 +61,10 @@ ScrollReveal().reveal(".footer", {
     duration: 1000,
     delay: 200,
 });
+
+const hamburger = document.querySelector(".hamburger");
+const nav = document.querySelector(".mobile-nav");
+
+hamburger.addEventListener("click", () =>{
+    nav.classList.toggle("mobile-nav-hide");
+})
