@@ -444,7 +444,13 @@ ul{
         display: block;
     }
 }
-
+@media only screen and (max-width: 800px){
+    .gallery{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
 .mobile-nav{
     background-color: var(--colo-white-1);
     position: absolute;
@@ -458,6 +464,7 @@ ul{
     border-bottom: 1px solid var(--colo-white-2);
 }
 .mobile-nav-link{
+    color: var(--colo-dark-1);
     padding: 1.2rem 5rem 1.2rem 0rem;
 }
 .mobile-nav-hide{
