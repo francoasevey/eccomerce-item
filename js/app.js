@@ -86,13 +86,15 @@ hamburger.addEventListener("click", () =>{
 const AddToCart = document.querySelectorAll(".add-to-cart");
 
 AddToCart.forEach((button) =>{
-    const id = button.getAttribute("data-id");
-    const title = button.getAttribute("data-title");
-    const image = button.getAttribute("data-image");
-    const price = button.getAttribute("data-price");
-
-    const cartItem = {id, title, image, price};
-    const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    cart.push(cartItem);
-    localStorage.setItem("cart", JSON.stringify(cart));
+    button.addEventListener("click", () =>{
+        const id = button.getAttribute("data-id");
+        const title = button.getAttribute("data-title");
+        const image = button.getAttribute("data-image");
+        const price = button.getAttribute("data-price");
+    
+        const cartItem = {id, title, image, price};
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.push(cartItem);
+        localStorage.setItem("cart", JSON.stringify(cart));
+    })
 })
