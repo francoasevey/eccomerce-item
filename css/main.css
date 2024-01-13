@@ -516,3 +516,19 @@ ul{
     outline: none;
     margin-top: 2rem;
 }
+
+.auth-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+.auth-img{
+    width: 50%;
+}
+.auth-img > img{
+    width: 100%;
+}
+.auth-content{
+    width: 50%;
+}
