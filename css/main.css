@@ -521,14 +521,65 @@ ul{
     width: 100%;
     display: flex;
     align-items: center;
-    height: 70vh;
+    height: 90vh;
 }
 .auth-img{
     width: 50%;
+    height: 100%;
 }
 .auth-img > img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .auth-content{
     width: 50%;
+}
+
+@media only screen and (max-width: 800px){
+    .auth-img{
+        display: none;
+    }
+    .auth-content{
+        width: 100%;
+    }
+}
+
+.auth-content{
+    padding: 10rem;
+}
+.form-title{
+    font-size: 3.2rem;
+}
+.auth-p{
+    margin: 2rem 0rem;
+}
+.form-group{
+    width: 100%;
+}
+.form-input{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem 0.6rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--colo-dark-2);
+}
+.form-pass{
+    margin-bottom: 1rem;
+}
+.form-btn{
+    width: 100%;
+    padding: 1.3rem;
+    background-color: var(--colo-primary);
+    color: var(--colo-white-1);
+    border: none;
+    outline: none;
+    margin-bottom: 1.5rem;
+}
+.form-link{
+    color: var(--colo-white-1);
+}
+.form-group > span{
+    margin-top: 2rem;
 }
