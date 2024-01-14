@@ -612,7 +612,21 @@ ul{
 
 .team-container{
     width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 6rem;
+}
+.team-img{
+    width: 100%;
+    height: 80%;
+}
+.team-name{
+    margin: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+.team-designation{
+    text-align: center;
+    font-weight: 900;
 }
